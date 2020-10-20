@@ -1,0 +1,50 @@
+{
+    "env": {
+        "commonjs": true,
+        "es6": true,
+        "node": true
+    },
+    "extends": ["prettier", "airbnb-base"],
+    "plugins": ["prettier"],
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+        "ecmaVersion": 2018
+    },
+    "rules": {
+        "prettier/prettier": "warn",
+        "no-unused-vars": "warn",
+        "eol-last": "warn",
+        "import/newline-after-import": "warn",
+        "prefer-arrow-callback": "warn",
+        "keyword-spacing": "warn",
+        "object-curly-spacing": "warn",
+        "padded-blocks": "warn",
+        "no-empty": "warn",
+        "spaced-comment": "warn",
+        "arrow-parens": "warn",
+        "prefer-const": "warn",
+        "import/extensions": "off",
+        "indent": "off",
+        "no-console": "off",
+        "comma-dangle": "off",
+        "object-curly-newline": "off",
+        "quotes": "off",
+        "consistent-return": "off",
+        "no-param-reassign": "off",
+        "import/prefer-default-export": "off",
+        "prefer-destructuring": "off",
+        "prefer-template": "off",
+        "no-use-before-define": "off",
+        "class-methods-use-this": "off",
+        "no-restricted-globals": "off",
+        "no-plusplus": "off",
+        "no-await-in-loop": "off",
+        "max-len": "off",
+        "dot-notation": "off",
+        "no-async-promise-executor": "off",
+        "operator-linebreak": "off"
+    }
+}
