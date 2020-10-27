@@ -1,35 +1,36 @@
 {
-  "name": "kanji-poster-server",
-  "version": "1.0.0",
-  "description": "Api backend for KanjiPoster svelte frontend, mainly for generating PDFs",
-  "main": "src/app.mjs",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Kage0x3B/kanji-poster-server.git"
-  },
-  "author": "Moritz Hein",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Kage0x3B/kanji-poster-server/issues"
-  },
-  "homepage": "https://github.com/Kage0x3B/kanji-poster-server#readme",
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "dotenv": "^8.2.0",
-    "ejs": "^3.1.5",
-    "express": "^4.17.1",
-    "helmet": "^4.1.1",
-    "wkhtmltopdf": "^0.3.4"
-  },
-  "devDependencies": {
-    "eslint": "^7.11.0",
-    "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-config-prettier": "^6.13.0",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-prettier": "^3.1.4",
-    "prettier": "^2.1.2"
-  }
+    "name": "kanji-poster-server",
+    "version": "1.0.0",
+    "description": "Api backend for KanjiPoster svelte frontend, mainly for generating PDFs",
+    "main": "src/app.mjs",
+    "scripts": {
+        "start": "nodemon",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Kage0x3B/kanji-poster-server.git"
+    },
+    "author": "Moritz Hein",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Kage0x3B/kanji-poster-server/issues"
+    },
+    "homepage": "https://github.com/Kage0x3B/kanji-poster-server#readme",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "dotenv": "^8.2.0",
+        "ejs": "^3.1.5",
+        "express": "^4.17.1",
+        "helmet": "^4.1.1",
+        "wkhtmltopdf": "^0.3.4"
+    },
+    "devDependencies": {
+        "eslint": "^7.11.0",
+        "eslint-config-airbnb-base": "^14.2.0",
+        "eslint-config-prettier": "^6.13.0",
+        "eslint-plugin-import": "^2.22.1",
+        "eslint-plugin-prettier": "^3.1.4",
+        "prettier": "^2.1.2"
+    }
 }

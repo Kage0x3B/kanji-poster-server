@@ -56,6 +56,10 @@ app.use((err, req, res, next) => {
         message: err.message,
         err
     });
+
+    if (config.dev) {
+        throw err;
+    }
 });
 
 http.createServer(app).listen(config.port, "0.0.0.0", () => {
